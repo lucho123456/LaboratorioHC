@@ -1,0 +1,334 @@
+﻿<br />
+<br />
+<form id="CrearPaciente" name="CrearPaciente" method="post" action="/CrearPaciente/Paciente">
+    <div class="container">
+        <div class="card">
+            <div class=" card-header">
+                Paciente
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="form-group">
+                    <label for="NombreCompleto">Nombre Completo </label>
+                    <input id="NombreCompleto"
+                           name="NombreCompleto"
+                           class="form-control"
+                           placeholder="Nombre Completo"
+                           maxlength="100"
+                           required />
+                </div>
+            </div>
+
+
+            <div id="mensaje"></div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="TipoIdentificacion">Tipo de Identificacion</label>
+                        <select id="TipoIdentificacion" name="TipoIdentificacion" required class="form-control">
+
+                            <option> </option>
+                            <option>Cedula de ciudadania</option>
+                            <option>Tarjeta de identidad</option>
+                            <option>Registro civil</option>
+                            <option>Cedula de extrangeria</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="NumeroIdentificacion">Numero de Identificacion</label>
+                        <input id="NumeroIdentificacion"
+                               name="NumeroIdentificacion"
+                               class="form-control numero"
+                               placeholder="Introduce numero de Identificacion"
+                               maxlength="20"
+                               required />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="form-group">
+                    <label for="fechaDeNacimiento">Fecha de nacimiento</label>
+                    <input id="fechaDeNacimiento"
+                           name="fechaDeNacimiento"
+                           class=" form-control datepicker"
+                           placeholder="Introduce fecha de nacimiento"
+                           required />
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label class="control-label">Genero</label>
+                    <div class="form-group">
+                        <label class="radio-inline">
+                            <input type="radio" id="femenino" name="genero" />
+                            Femenino
+                            <input type="radio" id="masculino" name="genero" />
+                            Masculino
+                        </label>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label for="EstadoCivil">Estado Civil</label>
+                    <select id="EstadoCivil" name="EstadoCivil" required class="form-control">
+
+                        <option> </option>
+                        <option>Soltero/a</option>
+                        <option>Casado/a</option>
+                        <option>Divorciado/a</option>
+                        <option>Viudo/a</option>
+                        <option>Union Libre</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label for="Direccion">Dirreccion de Residencia</label>
+                    <input id="Direccion"
+                           name="Direccion"
+                           class="form-control"
+                           placeholder="Direccion de Residencia"
+                           maxlength="100"
+                           required />
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label for="BarrioResidencia">Barrio de Residencia</label>
+                    <input id="BarrioResidencia"
+                           name="BarrioResidencia"
+                           class="form-control"
+                           placeholder="Barrio de Residencia"
+                           maxlength="100"
+                           required />
+                </div>
+            </div>
+
+            <div class="card-body">
+                <div id="mensaje"></div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label for="NivelEscolaridad">Nivel Escolaridad</label>
+                            <select id="NivelEscolaridad" name="NivelEscolaridad" required class="form-control">
+
+                                <option> </option>
+                                <option>Primaria</option>
+                                <option>Secundaria</option>
+                                <option>Tecnico/Tecnologo</option>
+                                <option>Profesional</option>
+
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label for="Ocupacion">Ocupacion</label>
+                            <select id="Ocupacion" name="Ocupacion" required class="form-control">
+
+                                <option> </option>
+                                <option>Estudiante</option>
+                                <option>Empleado</option>
+                                <option>Independiente</option>
+
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="form-group">
+
+                            <label for="TelefonoContacto">Telefono de Contacto</label>
+                            <input id="TelefonoContacto"
+                                   name="TelefonoContacto"
+                                   class="form-control numero"
+                                   placeholder="Telefono de Contacto"
+                                   maxlength="20"
+                                   required />
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="card-body">
+            <div id="mensaje"></div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label for="Regimen">Regimen de afiliacion</label>
+                        <select id="Regimen" name="Regimen" required class="form-control">
+
+                            <option> </option>
+                            <option>Contributivo</option>
+                            <option>Subsidiado</option>
+                            <option>Especial</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label for="EPS">EPS</label>
+                        <input id="EPS"
+                               name="EPS"
+                               class="form-control"
+                               placeholder="EPS"
+                               maxlength="100"
+                               required />
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input id="Email"
+                               name="Email"
+                               class="form-control"
+                               placeholder="Email"
+                               maxlength="100"
+                               required />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label for="ContactoEmergencia">Contacto de Emergencia</label>
+                    <input id="ContactoEmergencia"
+                           name="ContactoEmergencia"
+                           class="form-control"
+                           placeholder="Contacto de Emergencia"
+                           maxlength="150"
+                           required />
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label for="AntecedentesMedicos">Antecedentes Medicos</label>
+                    <input id="AntecedentesMedicos"
+                           name="AntecedentesMedicos"
+                           class="form-control"
+                           placeholder="AntecedentesMedicos"
+                           maxlength="1000"
+                           required />
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <input type="submit" value="Guardar"
+                       class="btn btn-secondary" />
+
+            </div>
+        </div>
+
+        <br/>
+
+        <button type="button" class="btn btn-secondary" onclick="javascript: location.href = '/Home/Principal';">Atras</button>
+
+    </div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        $('.datepicker').datepicker({
+            format: 'dd/mm/yyyy',
+            language: 'es',
+            autoclose: true
+        });
+        $('.numero').keyup(function () {
+            this.value = this.value.replace(/[^0-9]/g, '');
+        });
+
+        mensaje = {};
+        mensaje.warning = function (texto) {
+            $('#mensaje').
+                html('<div class="alert alert-danger">' +
+                '<a class="close" data-dismiss="alert">x</a><span>'
+                + texto + '</span></div>');
+
+        };
+
+        function validarFechaNacimiento(fecha) {
+            if (fecha === "") return false;
+            var fechas = fecha.split("/");
+            var nuevaFecha = new Date(parseInt(fechas[2], 10),
+            parseInt(fechas[1], 10) - 1,
+            parseInt(fechas[0], 10));
+            if (nuevaFecha > new Date()) {
+                return false
+            }
+            else {
+                return true;
+            }
+        }
+
+
+        $('#Deportista').submit(function (event) {
+            if ($('# NumeroIdentificacion').val().length < 6) {
+                mensaje.warning('El número de documento debe' +
+                    'tener minimo seis digitos');
+                return false;
+            }
+            if (!validarFechaNacimiento($('#fechaDeNacimiento').val())) {
+                mensaje.warning('la fecha de nacimiento no es valida');
+                return false;
+            }
+            if (!$('#femenino:checked').val() &&
+                !$('#masculino:checked').val()) {
+                mensaje.warning('Debe seleccionar el sexo');
+                return false;
+            }
+
+        });
+
+
+    </script>
+
+
+</form>
+
