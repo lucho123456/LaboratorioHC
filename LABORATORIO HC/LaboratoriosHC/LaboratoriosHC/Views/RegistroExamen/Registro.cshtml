@@ -1,0 +1,185 @@
+﻿@{
+    var selectQueryString = "SELECT * FROM Examen;";
+
+    //var db = Database.Open("LaboratorioEntities");
+}
+<style type="text/css">
+    .jumbotron {
+        margin-top: 20px;
+        background-image: url(http://static.websguru.com.ar/var/m_2/21/213/61885/985784-laboratorio-de-analisis-clinicos-banner-1.jpg);
+        background-size: cover;
+    }
+
+    .section {
+        box-shadow: rgba(0, 0, 0, 0.75) 3px 3px 7px 0px;
+        background-color: rgb(255,255,255);
+        padding: 10px 10px 10px 10px;
+        margin: 8px 8px 8px 8px;
+        height: 250px;
+    }
+
+    .container {
+        box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 5px 10px;
+        max-width: 1010px;
+        height: 100%;
+    }
+</style>
+
+<style type="text/css">
+    .boton {
+        align-content: center;
+    }
+</style>
+
+<script>
+    var i = 0;
+    function agregarExamen() {
+        var examen = document.getElementById("Examen" + i);
+        examen.style.display = "block";
+        examen.name = "Examen" + i;
+        i = i + 1;
+    }
+</script>
+
+<form method="post" action="~/RegistroExamen/Examen">
+    <div class="row">
+        <div class="col-sm-5">
+            <div class="form-group">
+                <label for="NombreCompleto">Nombre Completo </label>
+                <input id="NombreCompleto"
+                       name="NombreCompleto"
+                       class="form-control"
+                       placeholder="Nombre Completo"
+                       maxlength="100"
+                       required />
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label for="TipoIdentificacion">Tipo de Identificacion</label>
+                    <select id="TipoIdentificacion" name="TipoIdentificacion" required class="form-control">
+
+                        <option>Cedula de ciudadania</option>
+                        <option>Tarjeta de identidad</option>
+                        <option>Registro civil</option>
+                        <option>Cedula de extrangeria</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label for="NumeroIdentificacion">Numero de Identificacion</label>
+                    <input id="NumeroIdentificacion"
+                           name="NumeroIdentificacion"
+                           class="form-control numero"
+                           placeholder="Introduce numero de Identificacion"
+                           maxlength="20"
+                           required />
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-5">
+            <div class="form-group">
+                <label for="FechaDeNacimiento">Fecha de nacimiento</label>
+                <input id="FechaDeNacimiento"
+                       name="FechaDeNacimiento"
+                       class=" form-control datepicker"
+                       placeholder="Introduce fecha de nacimiento"
+                       required />
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="form-group">
+                <label class="control-label">Genero</label>
+                <div class="form-group">
+                    <label class="radio-inline">
+                        <input type="radio" id="femenino" name="Genero" />
+                        Femenino
+                        <input type="radio" id="masculino" name="Genero" />
+                        Masculino
+                    </label>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label for="Examen">Examen</label>
+                    <select id="Examen" name="Examen" required class="form-control">
+                        @foreach (var tipoExamen in ViewBag.tiposExamenes)
+                        {
+                            <option value=@tipoExamen.Id>@tipoExamen.Nombre</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img src="http://pngimg.com/uploads/plus/plus_PNG106.png" style="width:32px; height:auto;" onclick="agregarExamen()">
+            </div>
+        </div>
+
+        <div class="row" id="Examen0" style="display:none;">
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label for="Examen0">Examen</label>
+                    <select id="Examen0" name="" required class="form-control">
+                        @foreach (var tipoExamen in ViewBag.tiposExamenes)
+                        {
+                            <option value=@tipoExamen.Id>@tipoExamen.Nombre</option>
+                        }
+
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="Examen1" style="display:none;">
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label for="Examen1">Examen</label>
+                    <select id="Examen1" name="" required class="form-control">
+                        @foreach (var tipoExamen in ViewBag.tiposExamenes)
+                        {
+                            <option value=@tipoExamen.Id>@tipoExamen.Nombre</option>
+                        }
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="Examen2" style="display:none;">
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label for="Examen2">Examen</label>
+                    <select id="Examen2" name="" required class="form-control">
+                        @foreach (var tipoExamen in ViewBag.tiposExamenes)
+                        {
+                            <option value=@tipoExamen.Id>@tipoExamen.Nombre</option>
+                        }
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <input type="submit" value="Guardar"
+                       class="btn btn-secondary" />
+
+            </div>
+        </div>
+    </div>
+</form>

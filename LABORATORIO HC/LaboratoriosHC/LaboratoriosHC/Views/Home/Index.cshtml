@@ -1,0 +1,51 @@
+﻿@using System.Configuration
+@using System
+@using System.Data.SqlClient
+@using System.Web
+@{
+}
+
+
+
+<style type="text/css">
+    .jumbotron {
+        margin-top: 20px;
+        background-image: url(http://static.websguru.com.ar/var/m_2/21/213/61885/985784-laboratorio-de-analisis-clinicos-banner-1.jpg);
+        background-size: cover;
+    }
+
+    .section {
+        box-shadow: rgba(0, 0, 0, 0.75) 3px 3px 7px 0px;
+        background-color: rgb(255,255,255);
+        padding: 10px 10px 10px 10px;
+        margin: 8px 8px 8px 8px;
+        height: 250px;
+    }
+
+    .container {
+        box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 5px 10px;
+        max-width: 1010px;
+        height: 100%;
+    }
+</style>
+
+<style type="text/css">
+    .boton {
+        align-content: center;
+    }
+</style>
+
+
+
+<div class="jumbotron">
+    <h1>Laboratorio Hermanos Campuzano</h1>
+    <p class="lead">Ayudas diagnosticas y laboratorio clinico.</p>
+
+</div>
+
+<form class="form-inline my-2 my-lg-0" method="post" action="~/Home/Login">
+    <input class="form-control mr-sm-2 pull-rigth" type="search" placeholder="Nombre de usuario" name="Usuario">
+    <input class="form-control mr-sm-2" type="search" placeholder="Contraseña" name="Contrasena">
+    <button type="submit" class="btn btn-secondary">Inicio</button>
+</form>
+

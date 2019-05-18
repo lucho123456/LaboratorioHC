@@ -1,0 +1,1 @@
+﻿INSERT INTO Usuario (Id, Usuario, Contrasena) VALUES (0, 'admin', 'root');

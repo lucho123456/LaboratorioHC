@@ -1,0 +1,101 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<environment names="Development">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</environment>
+<environment names="Staging,Production">
+    <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+          asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+          asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+    <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+</environment>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+<link rel="stylesheet" href="~/css/site.css" />
+<style type="text/css">
+    .jumbotron {
+        margin-top: 20px;
+        background-image: url(http://static.websguru.com.ar/var/m_2/21/213/61885/985784-laboratorio-de-analisis-clinicos-banner-1.jpg);
+        background-size: cover;
+    }
+
+    .section {
+        box-shadow: rgba(0, 0, 0, 0.75) 3px 3px 7px 0px;
+        background-color: rgb(255,255,255);
+        padding: 10px 10px 10px 10px;
+        margin: 8px 8px 8px 8px;
+        height: 250px;
+    }
+
+    .container {
+        box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 5px 10px;
+        max-width: 1010px;
+        height: 100%;
+    }
+</style>
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" onclick="javascript: location.href = '/Home/Principal';">Inicio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" onclick="javascript: location.href = '/InformacionSedes/Sede';">Nuestras Sedes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" onclick="javascript: location.href = '/CrearPaciente/Paciente';">Datos Paciente</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" onclick="javascript: location.href = '/RegistroExamen/Registro';">Registro Examen</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" onclick="javascript: location.href = '/Reporte/Reporte';">Reporte</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" onclick="javascript: location.href = '/Home/Index';"> Cerrar Sesion</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div class="jumbotron">
+    <h1>Laboratorio Hermanos Campuzano</h1>
+    <p class="lead">Ayudas diagnosticas y laboratorio clinico.</p>
+
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="section">
+            <h2>QUIÉNES SOMOS?</h2>
+            <p>
+                El Laboratorio cuenta con moderna tecnología para la realización de los exámenes en forma eficiente y con calidad, con el objetivo de satisfacer las necesidades de nuestros usuarios, otorgándoles servicios realizados con tecnología de vanguardia en Colombia
+            </p>
+        </div>
+
+    </div>
+    <div class="col-md-4">
+        <div class="section">
+            <h2>MISIÓN</h2>
+            <p>Satisfacer las necesidades de nuestros clientes con el personal más calificado </p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="section">
+            <h2>VISIÓN</h2>
+            <p>Tener reconocimiento en el 2025 como la mejor empresa en Ayudas diagnosticas y laboratorio clinico</p>
+        </div>
+    </div>
+</div>

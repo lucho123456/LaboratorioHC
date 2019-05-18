@@ -1,0 +1,70 @@
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\bin\Debug\netcoreapp2.2\LaboratoriosHC.deps.json
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\bin\Debug\netcoreapp2.2\LaboratoriosHC.runtimeconfig.json
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\bin\Debug\netcoreapp2.2\LaboratoriosHC.runtimeconfig.dev.json
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\bin\Debug\netcoreapp2.2\LaboratoriosHC.dll
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.csprojAssemblyReference.cache
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.csproj.CoreCompileInputs.cache
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.RazorAssemblyInfo.cache
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.RazorAssemblyInfo.cs
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.AssemblyInfoInputs.cache
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.AssemblyInfo.cs
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.TagHelpers.input.cache
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.TagHelpers.output.cache
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.RazorCoreGenerate.cache
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\Home\Principal.g.cshtml.cs
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.RazorTargetAssemblyInfo.cache
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.RazorTargetAssemblyInfo.cs
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\bin\Debug\netcoreapp2.2\LaboratoriosHC.pdb
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\bin\Debug\netcoreapp2.2\LaboratoriosHC.Views.dll
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\bin\Debug\netcoreapp2.2\LaboratoriosHC.Views.pdb
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.Views.pdb
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.dll
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.pdb
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.csproj.CopyComplete
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\CrearPaciente\Paciente.g.cshtml.cs
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\InformacionSedes\Sede.g.cshtml.cs
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\RegistroExamen\Registro.g.cshtml.cs
+C:\Users\Davquiroga\documents\visual studio 2017\Projects\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\Reporte\Reporte.g.cshtml.cs
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\bin\Debug\netcoreapp2.2\LaboratoriosHC.deps.json
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\bin\Debug\netcoreapp2.2\LaboratoriosHC.runtimeconfig.json
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\bin\Debug\netcoreapp2.2\LaboratoriosHC.runtimeconfig.dev.json
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\bin\Debug\netcoreapp2.2\LaboratoriosHC.dll
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\bin\Debug\netcoreapp2.2\LaboratoriosHC.pdb
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\bin\Debug\netcoreapp2.2\LaboratoriosHC.Views.dll
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\bin\Debug\netcoreapp2.2\LaboratoriosHC.Views.pdb
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.csprojAssemblyReference.cache
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.csproj.CoreCompileInputs.cache
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.RazorAssemblyInfo.cache
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.RazorAssemblyInfo.cs
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.AssemblyInfoInputs.cache
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.AssemblyInfo.cs
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.TagHelpers.input.cache
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.TagHelpers.output.cache
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.RazorCoreGenerate.cache
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\CrearPaciente\Paciente.g.cshtml.cs
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\Home\Principal.g.cshtml.cs
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\InformacionSedes\Sede.g.cshtml.cs
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\RegistroExamen\Registro.g.cshtml.cs
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\Reporte\Reporte.g.cshtml.cs
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.RazorTargetAssemblyInfo.cache
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.RazorTargetAssemblyInfo.cs
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.Views.pdb
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.dll
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.pdb
+C:\Users\Andrés\Downloads\LaboratoriosHC\LaboratoriosHC\obj\Debug\netcoreapp2.2\LaboratoriosHC.csproj.CopyComplete

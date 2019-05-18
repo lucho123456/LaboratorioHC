@@ -1,0 +1,38 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<h2>Acido Urico</h2>
+<p>
+    Examenes realizados: @ViewBag.acidoUrico
+    Valor de descuento total: @ViewBag.descuentoAcidoUrico
+</p>
+
+<h2>Coprologico</h2>
+<p>
+    Examenes realizados: @ViewBag.examen0
+    Valor de descuento total: @ViewBag.descuentoExamen0
+</p>
+
+<h2>Colesterol Total</h2>
+<p>
+    Examenes realizados: @ViewBag.examen1
+    Valor de descuento total: @ViewBag.descuentoExamen1
+</p>
+
+<h2>Cuadro Hematico</h2>
+<p>
+    Examenes realizados: @ViewBag.examen2
+    Valor de descuento total: @ViewBag.descuentoExamen2
+</p>
+
+Personas que se realizaron exámenes de ácido úrico en la sede de Monteria:
+@foreach (var paciente in ViewBag.pacientes)
+{
+    <p>
+        @paciente.Nombre
+        @paciente.Nacimiento
+        @paciente.Genero
+        @paciente.Telefono
+        @paciente.Ocupacion
+    </p>
+}
